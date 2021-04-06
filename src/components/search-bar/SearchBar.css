@@ -1,0 +1,34 @@
+.bar-container{
+    width: 40rem;
+    height: 2rem;
+}
+
+.bar-select{
+    width: 20%;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    outline: none;
+    padding-left: 1rem;
+}
+
+.bar-input{
+    width: 60%;
+}
+
+.bar-input-red{
+    outline: solid;
+    outline-color: red;
+}
+
+.bar-button{
+    width: 20%;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+.bar-button:hover{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

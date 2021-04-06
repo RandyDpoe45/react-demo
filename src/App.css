@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.r-flex{
+  display: flex !important;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-center{
+  justify-content: center !important;
+}
+
+.align-items-center{
+  align-items: center !important;
+}
+
+.generic-button{
+  background-color: #FF452B;
+  color: white;
+  border-radius: 12px;
+  border-width: 0;
+  outline: none;
+}
+
+.generic-button:disabled, .generic-button:disabled:hover{
+  background-color: #d67d71;
+}
+
+.generic-button:hover{
+  background-color: #94390f ;
+  color: white;
+  border-radius: 12px;
+  border-width: 0;
+}
+
+.App-body{
+  /* height: 100%; */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  box-sizing: border-box;
+  margin: 2rem 3rem 4rem 3rem;
+}
